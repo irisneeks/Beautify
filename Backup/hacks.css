@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/*
+#wrapper {
+  width: 100%;
+  height: 50%;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+#bottom {
+  bottom: 0;
+  background-color: green;
+}
+
+img {
+  width: 100%;
+  height: 10%;
+}
+
+*/
+html, body {
+  height: 100%;
+  margin: 0 auto;
+}
+  
+#wrapper {
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0 auto;
+  padding: 0 0;
+  background-image: url("bg2.png");
+  background-repeat: y;
+  background-size: contain;
+  border-bottom: 1em none #fff;
+  box-shadow: 0 0 4em #000;
+}
+
+.beginning {
+  font-family: 'Lobster Two';
+  line-height: 275px;
+  font-weight: bold;
+  color: red;
+  /*font-size: 175px;*/
+  font-size: 10vw;
+  margin: 0 auto;
+  
+}
+
+#filter {
+  text-align: center;
+  position: absolute;
+  left: 25%;
+  border-radius: 0.4em;
+  background-color: #ffffff;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  width: 50%;
+  margin: 10em auto;
+}
+
+.downbutton {
+  width: 7%;
+  height: auto;
+  margin: 30em auto;
+  text-align: center;
+  left: 46.5%;
+  position: absolute;
+}
+
+#down {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+}
+
+.downimg {
+  background: url("929 (1).png");
+  width: 0.1em;
+  max-height: 2em;
+}
+
+
+#bottom {
+  width: 100%;
+  height: 100%;
+  border: solid green;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  text-align: center;
+}

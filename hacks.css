@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  height: 100%;
+  margin: 0 auto;
+}
+  
+a {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#make.border button {
+  color: #27496d;
+  background: rgba(0,0,0,0);
+  border: solid 5px #6496c8;
+}
+
+#make.border button:hover {
+  border-color: #346392;
+  color: #346392;
+}
+
+#make.border button: active {
+  border-color: #27496d;
+  color: #27496d;
+}
+#wrapper {
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0 auto;
+  padding: 0 0;
+  background-image: url("bg2.png");
+  background-repeat: repeat-x;
+  background-size: contain;
+  border-bottom: 1em none #fff;
+  box-shadow: 0 0 4em #000;
+}
+
+#upload {
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-image: url("cool-hipster-backgrounds.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: arial;
+  text-shadow: 2px 2px black;
+  font-family: 'Lobster Two';
+}
+
+.section {
+  text-align: center;
+  font-family: 'Lobster Two';
+  color: #388bff;
+  font-size: 250%;
+  text-shadow: 2px 2px black;
+}
+
+.options {
+  text-align: center;
+  font-family: 'Lobster Two';
+  color: white;
+  font-size: 100%;
+}
+
+.beginning {
+  font-family: 'Lobster Two';
+  line-height: 275px;
+  font-weight: bold;
+  color: red;
+  /*font-size: 175px;*/
+  font-size: 10vw;
+  margin: 0 auto;
+  
+}
+
+
+
+#filter {
+  text-align: center;
+  position: absolute;
+  left: 25%;
+  border-radius: 0.4em;
+  background-color: #ffffff;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  width: 50%;
+  margin: 10em auto;
+}
+
+.downbutton {
+  width: 7%;
+  height: auto;
+  margin: 30em auto;
+  text-align: center;
+  left: 46.5%;
+  position: absolute;
+}
+
+#down {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+}
+
+
+.downimg {
+  background: url("929(1).png");
+  width: 0.1em;
+  max-height: 2em;
+}
+
+
+#bottom {
+  width: 100%;
+  height: 100%;
+  border: solid green;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  text-align: center;
+}

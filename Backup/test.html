@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Add Overlays</title>
+
+<script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript" src="./jstest.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body>
+
+    <div id="page">
+        <h1>Add Overlays to an Image</h1>
+        <p>Click the button below the image to desaturate it.</p>
+        
+        <div>
+            <p>
+                <strong>Overlay Image:</strong><br/>
+                <img src="./testfilter.png" alt="" id="image1" />
+            </p>           
+            <p>
+                <strong>Original Image:</strong><br/>
+	            <img src="./original.png" alt="" id="image" />
+            </p>
+            <p>
+                <label for="amount">Opacity:</label>
+                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;"><br/>
+                <div id="slider"></div>
+            </p>
+        </div>
+        <form><button id="toggleDesaturate" type="button">Overlay</button></form>
+        
+        
+        
+    </div>
+</body>
+</html>
